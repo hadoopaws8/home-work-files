@@ -1,0 +1,6 @@
+var1= open(r'C:\Users\jaya\Desktop\calculater\jaya1.txt','w')
+l=input("enter the data: ")
+dat=var1.writelines(l)
+d=dat.readlines()
+print(d)
+var1.close()

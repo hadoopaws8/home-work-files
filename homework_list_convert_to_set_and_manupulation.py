@@ -1,0 +1,10 @@
+l1=[1,6,8,2,3]
+l2=[4,2,3,1,8]
+l3=set(l1)
+l4=set(l2)
+l5=l3.intersection(l4)
+print(type(l3))
+print(l5)
+l6=list(l5)
+l6.sort(reverse=True)
+print(l6)
